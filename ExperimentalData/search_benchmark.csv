@@ -1,0 +1,4 @@
+Dataset_Records,NumQueries_q,LinearScan_Total_ms,LinearScan_Avg_ms,HashMap_Startup_ms,HashMap_Search_ms,HashMap_Avg_ms,SpeedupFactor,Estimated_Heap_KB
+1000,100,263.716,2.6372,5.841,0.0855,0.00086,3084.40,148
+10000,100,609.619,6.0962,99.247,0.6629,0.00663,919.62,1484
+100000,100,6094.092,60.9409,200.936,0.0851,0.00085,71610.95,14843

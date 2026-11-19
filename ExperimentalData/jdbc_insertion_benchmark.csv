@@ -1,0 +1,4 @@
+Records_n,Statement_Time_ms,PreparedStatement_Time_ms,Batch_1000_Time_ms,Speedup_Batch_vs_Stmt,Speedup_Batch_vs_Pstmt
+1000,181.64,13.58,0.40,451.28,33.75
+10000,1263.88,518.01,5.69,221.95,90.97
+100000,13415.12,4836.42,22.21,604.03,217.76

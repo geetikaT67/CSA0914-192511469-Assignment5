@@ -1,0 +1,2 @@
+TotalRecords,ValidRecords,RejectedRecords,BatchSize,Duration_ms,Throughput_RecPerSec
+1005,1000,5,1000,0.26,3889537
