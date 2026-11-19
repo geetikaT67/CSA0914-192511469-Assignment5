@@ -1,0 +1,18 @@
+================================================================================
+           DATA MIGRATION VALIDATION AUDIT REPORT
+           Student Name: Geetika T | Reg No: 192511469
+           University Transport Office - Multi-Campus Expansion
+================================================================================
+Total Valid Records Qualified for Ingestion: 1,000
+Total Damaged / Rejected Records:            5
+Validation Pass Rate:                        99.50%
+--------------------------------------------------------------------------------
+DETAILED REJECTED RECORD LOG (QUARANTINED):
+--------------------------------------------------------------------------------
+[Line 1001] REASON: Invalid field count: found 4, expected 7 | RAW: P9901|192511469|IncompleteRecord|Route-101
+[Line 1002] REASON: Malformed Pass ID 'INVALID_ID' (must match Pxxxx) | RAW: INVALID_ID|192511470|Rajesh V|Route-102|Central|2026-12-31|1500.00
+[Line 1003] REASON: Malformed Register Number 'BAD_REG_NO' (must be numeric 9+ digits) | RAW: P9902|BAD_REG_NO|Sneha R|Route-104|Guindy|2026-12-31|2000.00
+[Line 1004] REASON: Invalid date format 'INVALID_DATE' (must be YYYY-MM-DD) | RAW: P9903|192511471|Vijay K|Route-108|Avadi|INVALID_DATE|2500.00
+[Line 1005] REASON: Negative financial amount: ₹-800.0  | RAW: P9904|192511472|Priya M|Route-201|Tambaram|2026-12-31|-800.00
+================================================================================
+End of Audit Report.
